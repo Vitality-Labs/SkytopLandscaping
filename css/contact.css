@@ -1,0 +1,61 @@
+.contactpage-container {
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+}
+
+.contactpage-header {
+    width: 50%;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.contactpage-header h1 {
+    padding-top: 25px;
+    text-decoration: underline;
+}
+
+.text-region {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.contact-methods {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+.methods-content {
+    min-width: 30%;
+    max-width: 45%;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.forum-container {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    /* background-color: #bdbdbd;
+    border: 0px solid;
+    border-radius: 25px; */
+}
+
+.forum-container iframe {
+    margin-top: 25px;
+}

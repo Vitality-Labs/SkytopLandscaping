@@ -1,0 +1,46 @@
+.gallery-wrapper {
+    width: 100%;
+}
+
+.gallery-container {
+    width: 85%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gallery-header {
+    width: 50%;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.gallery-header h1 {
+    padding-top: 25px;
+    text-decoration: underline;
+}
+
+.row {
+    display: flex;
+    overflow: hidden;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.column img {
+    border: 2px solid #1a1a1a;
+    border-radius: 2px;
+}
+
+.column img:hover {
+    filter: opacity(0.75)
+}
