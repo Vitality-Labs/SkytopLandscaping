@@ -77,6 +77,11 @@
     -ms-transform: scale(0.8);
     transform: scale(0.8);
     transition: 1s ease;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.2);
+}
+
+.navbar-menu li i {
+    text-shadow: 2px 2px 4px rgba(0,0,0,.2);
 }
 
 .navbar-menu li a#active {
@@ -117,9 +122,14 @@
     margin-top: 10px;
 }
 
-h2 {
+.contact-container h2 {
     display: inline;
     color: #0f0f0f; /* 0f0f0f*/
     font-family: 'Varela', sans-serif;
     font-size: calc(8px + 0.45vw);
+    text-shadow: 2px 2px 4px rgba(0,0,0,.1);
+}
+
+.contact-container i {
+    text-shadow: 2px 2px 4px rgba(0,0,0,.1);
 }

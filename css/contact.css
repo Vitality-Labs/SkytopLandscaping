@@ -35,8 +35,8 @@
 }
 
 .methods-content {
-    min-width: 30%;
-    max-width: 45%;
+    min-width: 55%;
+    max-width: 75%;
     height: 50px;
     margin-left: auto;
     margin-right: auto;
@@ -46,8 +46,13 @@
     text-align: center;
 }
 
+.methods-content h2 {
+    font-family: 'Varela', sans-serif;
+    font-size: 18px;
+}
+
 .forum-container {
-    width: 45%;
+    width: 65%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 15px;
